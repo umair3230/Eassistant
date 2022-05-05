@@ -1,0 +1,135 @@
+<div class="setting-modal-wrapper">
+    <div class="setting-modal-header">
+        <div class="header-content">
+            <h1 class="header-title">Settings</h1>
+            <p class="header-des">You are connected</p>
+        </div>
+        <a (click)="close()">
+            <img src="assets/icons/close-icon.svg" alt="">
+        </a>
+    </div>
+    <div class="setting-modal-body">
+        <div class="swap-wrapper">
+            <div class="avatar-content">
+                <span class="avatar-wrapper">
+                  <img src="assets/icons/avatar.png" alt="">
+                </span>
+                <div class="content-swap">
+                    <h2 class="swap-name">Mark Overton</h2>
+                    <p class="swap-des">NHA</p>
+                </div>
+            </div>
+            <a (click)="showAccount = true">
+                <img src="assets/icons/swap.svg" alt="">
+            </a>
+        </div>
+        <div class="suggestion-wrapper">
+            <h3 class="suggestion-heading">Suggest Document from</h3>
+            <ul class="switch-list">
+                <li class="single-switch">
+                    <label class="switch-label">
+                      Convert Epilogue
+               </label>
+                    <div class="label-switch-wrapper">
+                        <li class="list__item">
+                            <label for="primary0" class="switch switch--primary">
+                  <input
+                    class="switch__input"
+                    type="checkbox"
+                    id="primary0"
+                  />
+                  <div class="switch__box">
+                    <span class="switch__box-inner"></span>
+                  </div>
+                </label>
+                        </li>
+                    </div>
+                </li>
+                <li class="single-switch">
+                    <label class="switch-label">
+                      Epilogue
+             </label>
+                    <div class="label-switch-wrapper">
+                        <li class="list__item">
+                            <label for="primary1" class="switch switch--primary">
+                <input
+                  class="switch__input"
+                  type="checkbox"
+                  id="primary1"
+                />
+                <div class="switch__box">
+                  <span class="switch__box-inner"></span>
+                </div>
+              </label>
+                        </li>
+                    </div>
+                </li>
+                <li class="single-switch">
+                    <label class="switch-label">
+                      Operations
+             </label>
+                    <div class="label-switch-wrapper">
+                        <li class="list__item">
+                            <label for="primary2" class="switch switch--primary">
+                <input
+                  class="switch__input"
+                  type="checkbox"
+                  id="primary2"
+                />
+                <div class="switch__box">
+                  <span class="switch__box-inner"></span>
+                </div>
+              </label>
+                        </li>
+                    </div>
+                </li>
+                <li class="single-switch">
+                    <label class="switch-label">
+                      Enable Debugging
+             </label>
+                    <div class="label-switch-wrapper">
+                        <li class="list__item">
+                            <label for="primary4" class="switch switch--primary">
+                <input
+                  class="switch__input"
+                  type="checkbox"
+                  id="primary4"
+                />
+                <div class="switch__box">
+                  <span class="switch__box-inner"></span>
+                </div>
+              </label>
+                        </li>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a class="logout-button">
+            <img src="assets/icons/log-out.svg" alt=""> Logout
+        </a>
+        <p class="version-extension">
+            Version 1.023
+        </p>
+    </div>
+</div>
+
+<div class="setting-modal-wrapper" *ngIf="showAccount">
+    <div class="setting-modal-header">
+        <a (click)="showAccount = false">
+            <img src="assets/icons/arrow-back.svg" alt="">
+        </a>
+        <a (click)="close()">
+            <img src="assets/icons/close-icon.svg" alt="">
+        </a>
+    </div>
+    <div class="setting-modal-body">
+        <div class="select-account">
+            <h3 class="account-heading">Select Account</h3>
+            <p class="account-des">Choose the Customer Account below that you would like to login as:</p>
+            <input type="text" class="customer-account" placeholder="Customer Account">
+            <div class="action-account">
+                <button class="manage-btn" type="button">Manage</button>
+            </div>
+        </div>
+    </div>
+</div>

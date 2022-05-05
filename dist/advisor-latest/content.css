@@ -1,0 +1,12 @@
+.sidebar__panel {
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background: #FAFCFE;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.08);
+    border: 0;
+    transition : all 1s ease;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "gwt-Button"
+    ],
+    "ParentClassNames": [
+      "gwt-Button"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "gwt-PushButton"
+    ],
+    "ParentClassNames": [
+      "gwt-PushButton"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "gwt-ToggleButton"
+    ],
+    "ParentClassNames": [
+      "gwt-ToggleButton"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101046",
+    "ClassNames": [
+      "gwt-Label"
+    ],
+    "ParentClassNames": [
+      "gwt-Label"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "560",
+    "TagName": "textarea"
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "560",
+    "TagName": "input"
+  }
+]

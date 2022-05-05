@@ -1,0 +1,168 @@
+.setting-modal-wrapper {
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    width: 350px;
+    height: 494px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.setting-modal-header {
+    padding: 16px 24px 31px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0C2340;
+}
+
+.header-des {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #858585;
+}
+
+// setting-modal-body
+.setting-modal-body {
+    padding: 0 24px 24px;
+}
+
+// avatar-wrapper
+.avatar-wrapper {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+// swap-wrapper
+.swap-wrapper {
+    background: #DAF0FF;
+    border-radius: 4px;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.swap-name {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.swap-des {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+
+// suggestion-wrapper
+.suggestion-wrapper {
+    margin-top: 25px;
+}
+
+// suggestion-heading
+.suggestion-heading {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+// switch-label
+.switch-label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.single-switch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5px 0;
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    &:last-child {
+        padding-top: 19.5px;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        margin-bottom: 28px;
+    }
+}
+
+// logout-button
+.logout-button {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #EB5757;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 34px;
+}
+
+// version-extension
+.version-extension {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #858585;
+    text-align: right;
+}
+
+// account-heading
+.account-heading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+.account-des {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+// action-account
+.action-account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.manage-btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    padding: 8px 37px;
+    background: #FECB2F;
+    border-radius: 26px;
+    border: none;
+    &:focus {
+        outline: none;
+    }
+}

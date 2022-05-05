@@ -1,0 +1,46 @@
+{
+    "name": "Opus advisor lates",
+    "description": "This is small description",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "epilogue.png",
+        "48": "epilogue.png"
+    },
+    "action": {
+      "default_icon": {              
+        "16": "epilogue.png",
+        "48": "epilogue.png"
+      },
+      "default_title": "Opus Advisor",
+      "default_popup": "index.html"
+    },
+    "background": {
+    	"service_worker": "background.js",
+      "type": "module"
+  	},
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css" :["content.css"]
+      }
+    ],
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs"
+  ],
+    "host_permissions": [
+      "https://*/*","http://*/*"
+  ],
+  "externally_connectable": {
+    "matches": ["*://*dev-eassistant.s3-website-us-east-1.amazonaws.com/*","http://dev-eassistant.s3-website-us-east-1.amazonaws.com/"]
+  },
+  "web_accessible_resources":[
+    {
+      "resources": [ "index.html" ],
+      "matches": [ "https://*/*","http://*/*" ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+.extension-side-modal {
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.extension-modal-image {
+    position: relative;
+}
+
+.img-site-extension {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.extension-button {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    opacity: 0.7;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.extension-side-modal {
+    .modal-dialog {
+        margin: 0;
+        .modal-content {
+            height: 100vh;
+            background: #FAFCFE;
+            box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.08);
+            border: 0;
+        }
+    }
+}
+
+// extension-modal-header
+.extension-modal-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #F0F5FF;
+    background: white;
+}
+
+// header-icons
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+// extension-modal-body
+.extension-modal-body {
+    padding: 0;
+}
+
+// nav-tabs
+.nav-tabs {
+    border-bottom: 0;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 24px 24px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7A7A7A;
+    opacity: 0.5;
+    min-width: 150px;
+    padding: 9px 40px 5px;
+    border: none;
+    &.active {
+        color: black;
+        opacity: 1;
+        background-color: transparent;
+        border: none;
+        box-shadow: 0px 3px 0px #0097FF;
+    }
+}
+
+// inner-body-content
+.inner-body-content {
+    padding: 0px 24px 20px;
+    background: #FAFCFE;
+    height: calc(100vh - 290px);
+    overflow-y: auto;
+}
+
+.search-wrapper {
+    padding: 20px 24px 11px;
+    margin-bottom: 9px;
+}
+
+// single-play-card
+.single-play-card {
+    background: #FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 14px;
+    filter: drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.38));
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+// play-content-icon
+.play-content-icon {
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.play-heading {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+.play-des {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #828282;
+    display: inline;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+// play-card-icon-list
+.play-card-icon-list {
+    display: flex;
+    align-items: center;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    padding: 8px 14px;
+    gap: 4px;
+}
+
+.badge-done {
+    .icon {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+}
+
+.play-card-single-icon {
+    .icon {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.person-done {
+    .icon {
+        border: 1px solid #0097FF;
+    }
+}
+
+.file-done {
+    .icon {
+        background-color: #F2C94C;
+    }
+}
+
+// extension-footer-modal
+.extension-footer-modal {
+    background: #FFFFFF;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.11);
+    padding: 13px 53px;
+}
+
+.footer-extension-modal-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+// backdrop-modal
+.backdrop-modal {
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}

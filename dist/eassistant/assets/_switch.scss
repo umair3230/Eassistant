@@ -1,0 +1,218 @@
+// Variables
+$colors: ( "primary": #0097FF, "danger": #ff4651, "success": #1dc9b7, "warning": #ffb822, "info": #2786fb);
+$font-family: 'Amaranth',
+Fira Sans,
+Helvetica Neue,
+sans-serif;
+$ease: cubic-bezier(.38, .24, .28, 1.17);
+// Basic styles
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+// Switches style
+.switch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    // Hide input
+    &__input {
+        opacity: 0;
+        visibility: hidden;
+        width: 1px;
+        height: 1px;
+        background-color: transparent;
+        pointer-events: none;
+        position: absolute;
+    }
+    // Switch box
+    &__box {
+        padding: 4px;
+        border-radius: 100px;
+        position: relative;
+        height: 16px;
+        width: 23px;
+        background-color: #979797;
+        box-shadow: 0 0 10px transparent;
+        transition: 0.4s all $ease;
+        overflow: hidden;
+        // Before for background changes
+        &::before {
+            content: '';
+            width: 120%;
+            height: 110%;
+            position: absolute;
+            top: -5%;
+            left: -10%;
+            border-radius: 100px;
+            transform: translateX(-100%);
+            transition: .3s ease all;
+            will-change: transform, border-radius;
+        }
+        // Inner circle
+        &-inner {
+            position: absolute;
+            width: 7px !important;
+            height: 7px !important;
+            top: 28%;
+            border-radius: 100%;
+            background-color: white;
+            // transform: translateX(0);
+            box-shadow: 0 4px 20px rgba(white, .2);
+            transition: 0.4s all $ease;
+            overflow: hidden;
+            // &::after {
+            //     content: '';
+            //     height: 4px;
+            //     width: 4px;
+            //     border-radius: 10px;
+            //     top: 4px;
+            //     left: 5px;
+            //     position: absolute;
+            //     transform: translateX(-40px);
+            // }
+        }
+    }
+    // Animation on check input
+    &__input:checked~&__box>&__box-inner {
+        animation: checkSwitch .4s $ease forwards;
+        &::after {
+            animation: checkSwitchAfter .4s $ease .2s forwards;
+        }
+    }
+    // Animation on uncheck
+    &__input:not(:checked)~&__box>&__box-inner {
+        transform: translateX(-20px);
+        animation: unCheckSwitch .4s $ease forwards;
+        &::after {
+            animation: unCheckSwitchAfter .4s $ease forwards;
+        }
+    }
+    // Styles for all states
+    @each $key,
+    $value in $colors {
+        &--#{$key} &__box-inner::after {
+            background-color: rgba($value, .6);
+        }
+        &--#{$key} &__input:checked~&__box {
+            box-shadow: 0 8px 12px rgba($value, .1);
+            &::before {
+                transform: translateX(0);
+                border-radius: 20px;
+            }
+        }
+        &--#{$key} &__box::before {
+            background-color: $value;
+        }
+    }
+    // Switches text style
+    &__desc {
+        margin-left: 24px;
+    }
+}
+
+@each $key,
+$value in $colors {
+    .#{$key}-color {
+        color: $value;
+    }
+}
+
+// Footer styles
+.copyright {
+    color: #ababab;
+    .fa-heart {
+        color: map-get($colors, 'danger');
+    }
+    &__link {
+        text-decoration: none;
+        color: darken(#ababab, 30%);
+    }
+}
+
+.socials {
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        justify-content: space-between;
+    }
+    &__item {
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        font-size: 24px;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 22px;
+        transition: .3s ease all;
+        will-change: background-color;
+        &:hover {
+            background-color: rgba(map-get($colors, "info"), .1);
+        }
+        .fa-twitter {
+            color: map-get($colors, "info");
+        }
+        .fa-instagram {
+            color: map-get($colors, 'primary');
+        }
+    }
+}
+
+// Switches keyframes :)
+@keyframes checkSwitch {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        width: 36px;
+        transform: translateX(0);
+    }
+    100% {
+        width: 20px;
+        transform: translateX(8px);
+    }
+}
+
+@keyframes checkSwitchAfter {
+    from {
+        transform: translateX(-40px) scale(.2);
+    }
+    to {
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes unCheckSwitchAfter {
+    from {
+        transform: translateX(0) scale(1);
+    }
+    to {
+        transform: translateX(40px) scale(.2);
+    }
+}
+
+@keyframes unCheckSwitch {
+    0% {
+        width: 20px;
+        transform: translateX(16px);
+    }
+    50% {
+        width: 36px;
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

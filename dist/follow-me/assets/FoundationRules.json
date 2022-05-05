@@ -1,0 +1,712 @@
+[
+  {
+    "RuleType": 1,
+    "ControlType": "10101010",
+    "ClassNames": [
+      "alert"
+    ],
+    "Attributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "alert"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101011",
+    "ClassNames": [
+      "breadcrumbs"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101011",
+    "ParentClassNames": [
+      "breadcrumbs"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101013",
+    "ClassNames": [
+      "card-divider"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101013",
+    "ClassNames": [
+      "card-section"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101013",
+    "ClassNames": [
+      "card-image"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101013",
+    "ParentClassNames": [
+      "card"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101036",
+    "ParentClassNames": [
+      "menu",
+      "dropdown"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101036",
+    "ParentClassNames": [
+      "is-dropdown-submenu"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101034",
+    "ParentClassNames": [
+      "menu",
+      "drilldown"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101034",
+    "ParentClassNames": [
+     "is-drilldown-submenu"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101035",
+    "ParentClassNames": [
+      "menu",
+      "accordion-menu"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101035",
+    "ParentClassNames": [
+      "is-accordion-submenu"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "640",
+    "ParentClassNames": [
+      "menu"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101018",
+    "ClassNames": [
+      "reveal"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101018",
+    "ParentClassNames": [
+      "reveal"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101031",
+    "ClassNames": [
+      "help-text"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101032",
+    "ClassNames": [
+      "callout"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101032",
+    "ParentClassNames": [
+      "callout"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101033",
+    "ClassNames": [
+      "slider"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101033",
+    "ParentClassNames": [
+      "slider"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "140",
+    "ParentClassNames": [
+      "nav",
+      "nav-tabs"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101021",
+    "ClassNames": [
+      "pagination"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101021",
+    "ParentClassNames": [
+      "pagination"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101029",
+    "ClassNames": [
+      "form-control-range"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "440",
+    "ClassNames": [
+      "custom-control-label"
+    ],
+    "ParentClassNames": [
+      "custom-radio"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "450",
+    "ClassNames": [
+      "custom-control-label"
+    ],
+    "ParentClassNames": [
+      "custom-checkbox"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101030",
+    "ClassNames": [
+      "switch-paddle"
+    ],
+    "ParentClassNames": [
+      "switch"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "close"
+    ],
+    "Attributes": [
+      {
+        "AttributeName": "data-dismiss",
+        "AttributeValue": "toast"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "Attributes": [
+      {
+        "AttributeName": "aria-hidden",
+        "AttributeValue": "true"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "navbar-toggler-icon"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "btn"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "button"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ParentClassNames": [
+      "button"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "140",
+    "ClassNames": [
+      "tabs"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "140",
+    "ParentClassNames": [
+      "tabs"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "form-group"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "label",
+      "Attributes": [
+        {
+          "SearchAttributeName": "for",
+          "ValueAttributeName": "id"
+        }
+      ]
+    },
+    "TargetClassNames": [
+      "form-control"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "form-group"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "col-sm-10"
+      ],
+      "ChildElement": {
+        "TagName": "label",
+        "Attributes": [
+          {
+            "SearchAttributeName": "for",
+            "ValueAttributeName": "id"
+          }
+        ]
+      }
+    },
+    "TargetClassNames": [
+      "form-control-plaintext"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "card-body"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h5",
+      "ClassNames": [
+        "card-title"
+      ]
+    },
+    "TargetClassNames": [
+      "card-body"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "card-body"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h5",
+      "ClassNames": [
+        "card-title"
+      ]
+    },
+    "TargetClassNames": [
+      "card-body"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "card-body"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h5",
+      "ClassNames": [
+        "card-title"
+      ]
+    },
+    "TargetClassNames": [
+      "card-text"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "card-img-overlay"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h5",
+      "ClassNames": [
+        "card-title"
+      ]
+    },
+    "TargetClassNames": [
+      "card-img-overlay"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "form-check-input"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "form-check"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "label",
+      "Attributes": [
+        {
+          "SearchAttributeName": "for",
+          "ValueAttributeName": "id"
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "popover-header"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "popover",
+        "fade",
+        "bs-popover-right"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h3",
+      "ClassNames": [
+        "popover-header"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "popover-body"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "popover",
+        "fade",
+        "bs-popover-right"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h3",
+      "ClassNames": [
+        "popover-header"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "form-control-range"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "form-group"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "label ",
+      "Attributes": [
+        {
+          "AttributeName": "for",
+          "AttributeValue": "formControlRange"
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "modal-header"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "modal-content"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "modal-header"
+      ],
+      "ChildElement": {
+        "TagName": "h5",
+        "ClassNames": [
+          "modal-title"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "modal-body"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "modal-content"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "modal-header"
+      ],
+      "ChildElement": {
+        "TagName": "h5",
+        "ClassNames": [
+          "modal-title"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "modal-footer"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "modal-content"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "modal-header"
+      ],
+      "ChildElement": {
+        "TagName": "h5",
+        "ClassNames": [
+          "modal-title"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "form-control"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "input-group"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "input-group-prepend"
+      ],
+      "ChildElement": {
+        "TagName": "span",
+        "ClassNames": [
+          "input-group-text"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "form-control"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "input-group"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "input-group-append"
+      ],
+      "ChildElement": {
+        "TagName": "span",
+        "ClassNames": [
+          "input-group-text"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "toast-body"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "toast"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "toast-header"
+      ],
+      "ChildElement": {
+        "TagName": "strong",
+        "ClassNames": [
+          "mr-auto"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "toast-header"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "toast"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "toast-header"
+      ],
+      "ChildElement": {
+        "TagName": "strong",
+        "ClassNames": [
+          "mr-auto"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "input",
+    "RootElement": {
+      "TagName": "fieldset"
+    },
+    "ChildElement": {
+      "TagName": "label",
+      "Attributes": [
+        {
+          "SearchAttributeName": "for",
+          "ValueAttributeName": "id"
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "show-for-sr"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "button"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "ClassNames": [
+        "show-for-sr"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "breadcrumbs"
+      ]
+    },
+    "ChildElement": {
+      "HiddenClassName": "show-for-sr",
+      "TagName": "span"
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "pagination"
+      ]
+    },
+    "ChildElement": {
+      "HiddenClassName": "show-for-sr",
+      "TagName": "span"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "input",
+    "RootElement": {
+      "TagName": "label"
+    },
+    "ChildElement": {
+      "TagName": "label"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "textarea",
+    "RootElement": {
+      "TagName": "label"
+    },
+    "ChildElement": {
+      "TagName": "label"
+    }
+  }
+]

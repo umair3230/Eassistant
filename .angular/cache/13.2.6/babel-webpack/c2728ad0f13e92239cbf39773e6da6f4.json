@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  DomainURL: \"https://api.internal.qa-fm-opuseps.com/api\",\n  DomainURLv3: \"https://api.internal.qa-fm-opuseps.com/v3\",\n  DomainURL_V2: \"https://api.internal.qa-fm-opuseps.com/v2\",\n  AppDomainURL: \"qa-fm-opuseps.com\"\n};","map":null,"metadata":{},"sourceType":"module"}

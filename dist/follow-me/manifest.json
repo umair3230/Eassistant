@@ -1,0 +1,55 @@
+{
+  "manifest_version": 2,
+  "name": "Follow-me-0.1.1",
+  "description": "Document websites within chrome",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_icon": "epilogue.png",
+    "default_title": "POC Recorder",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "epilogue.png",
+    "48": "epilogue.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "match_about_blank": true,
+      "js": [
+        "inject.js",
+        "libs/rrweb.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "<all_urls>",
+    "unlimitedStorage",
+    "desktopCapture"
+  ],
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "externally_connectable": {
+    "matches": [
+      "https://opuseps.com/*",
+      "https://*.dev-opuseps.com/*",
+      "https://dev-opuseps.com/*",
+      "https://*.qa-opuseps.com/*",
+      "https://qa-opuseps.com/*",
+      "https://followme-api.dev-opuseps.com:3000/*",
+      "https://*.test-opuseps.com/*",
+      "https://test-opuseps.com/*",
+      "https://*.opuseps.com/*"
+    ],
+    "accept_tls_channel_id": true
+  },
+  "content_security_policy": "script-src 'unsafe-hashes' 'unsafe-inline' 'self' https://cdn.jsdelivr.net https://requirejs.org https://sdk.amazonaws.com https://unpkg.com https://cdn.jsdelivr.net; object-src 'self'"
+}

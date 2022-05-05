@@ -1,0 +1,702 @@
+[
+  {
+    "RuleType": 1,
+    "ControlType": "450",
+    "ParentClassNames": [
+      "mat-checkbox-layout"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "440",
+    "ParentClassNames": [
+      "mat-radio-label"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-option",
+      "mat-option-text",
+      "mat-option-pseudo-checkbox",
+      "mat-pseudo-checkbox"
+    ],
+    "RootElement": {
+      "TagName": "mat-option",
+      "ClassNames": [
+        "mat-option"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "ClassNames": [
+        "mat-option-text"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "TagName": "select"
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "value"
+    }
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101036",
+    "ParentClassNames": [
+      "mat-select-trigger"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101036",
+    "ParentClassNames": [
+      "mat-form-field-type-mat-select"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101036",
+    "TagName": "select",
+    "SpecialSelect": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101038",
+    "ParentClassNames": [
+      "mat-slide-toggle-label"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101039",
+    "TagName": "mat-toolbar-row",
+    "ClassNames": [
+      "mat-toolbar"
+    ],
+    "ParentClassNames": [
+      "mat-toolbar-row"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101040",
+    "TagName": "mat-list-item",
+    "ClassNames": [
+      "mat-list-item-content"
+    ],
+    "ParentClassNames": [
+      "mat-list-item"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101040",
+    "TagName": "mat-list",
+    "ClassNames": [
+      "mat-list"
+    ],
+    "ParentClassNames": [
+      "mat-list"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101043",
+    "ClassNames": [
+      "mat-tab"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101043",
+    "ClassNames": [
+      "mat-tab-labels"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101043",
+    "ClassNames": [
+      "mat-tab-label"
+    ],
+    "ParentClassNames": [
+      "mat-tab-labels"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101043",
+    "ClassNames": [
+      "mat-tab-body-content"
+    ],
+    "ParentClassNames": [
+      "mat-tab-body"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101037",
+    "TagName": "mat-chip",
+    "ClassNames": [
+      "mat-chip"
+    ],
+    "ParentClassNames": [
+      "mat-chip"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101042",
+    "TagName": "snack-bar-container",
+    "ParentClassNames": [
+      "mat-snack-bar-container"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101021",
+    "ClassNames": [
+      "mat-paginator-container"
+    ],
+    "ParentClassNames": [
+      "mat-paginator-container"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101044",
+    "TagName": "mat-datepicker-toggle",
+    "ClassNames": [
+      "mat-datepicker-toggle"
+    ],
+    "ParentClassNames": [
+      "mat-datepicker-toggle"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101044",
+    "ClassNames": [
+      "mat-datepicker-toggle-default-icon"
+    ],
+    "ParentClassNames": [
+      "mat-datepicker-toggle-default-icon"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "1152241",
+    "Attributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "group"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "1152241",
+    "ParentClassNames": [
+      "mat-tree-node"
+    ],
+    "ParentAttributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "group"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "640",
+    "ParentClassNames": [
+      "mat-tree-node"
+    ],
+    "ParentAttributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "treeitem"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "1152241",
+    "ParentClassNames": [
+      "mat-nested-tree-node"
+    ],
+    "ParentAttributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "group"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "640",
+    "Attributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "menuitem"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "640",
+    "ParentClassNames": [
+      "mat-menu-item"
+    ],
+    "ParentAttributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "menuitem"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101024",
+    "Attributes": [
+      {
+        "AttributeName": "aria-haspopup",
+        "AttributeValue": "true"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101024",
+    "ParentClassNames": [
+      "mat-button"
+    ],
+    "ParentAttributes": [
+      {
+        "AttributeName": "aria-haspopup",
+        "AttributeValue": "true"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101024",
+    "ParentClassNames": [
+      "mat-icon-button"
+    ],
+    "ParentAttributes": [
+      {
+        "AttributeName": "aria-haspopup",
+        "AttributeValue": "true"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "TagName": "button",
+    "ClassNames": [
+      "mat-button"
+    ],
+    "ParentClassNames": [
+      "mat-button"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "340",
+    "ClassNames": [
+      "mat-button-wrapper"
+    ],
+    "ParentClassNames": [
+      "mat-button-wrapper"
+    ],
+    "JustMatchOneProperties": true
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "560",
+    "TagName": "input"
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "560",
+    "ParentClassNames": [
+      "mat-form-field-type-mat-input"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "560",
+    "TagName": "textarea"
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "560",
+    "ParentClassNames": [
+      "mat-form-field-type-mat-input"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101041",
+    "ParentClassNames": [
+      "mat-dialog-container"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101013",
+    "ParentClassNames": [
+      "mat-card"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101045",
+    "ParentClassNames": [
+      "mat-expansion-panel"
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": "10101045",
+    "ClassNames": [
+      "mat-expansion-indicator"
+    ]
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "mat-checkbox-layout"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "ClassNames": [
+        "mat-checkbox-label"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-radio-inner-circle",
+      "mat-radio-outer-circle"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "mat-radio-label"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "mat-radio-label-content"
+      ],
+      "ChildElement": {
+        "TagName": "span",
+        "IsNotHaveClass": true
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-chip"
+    ],
+    "RootElement": {
+      "TagName": "mat-chip"
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "span",
+    "TargetClassNames": [
+      "mat-select-placeholder",
+      "mat-select-arrow",
+      "mat-select-arrow-wrapper",
+      "mat-input-element"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "mat-form-field-infix"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "ClassNames": [
+        "mat-form-field-label-wrapper"
+      ],
+      "ChildElement": {
+        "TagName": "label",
+        "ClassNames": [
+          "mat-form-field-label"
+        ],
+        "ChildElement": {
+          "TagName": "mat-label",
+          "IsNotHaveClass": true
+        }
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "mat-select"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "mat-select",
+      "TargetAttributes": [
+        {
+          "ValueAttributeName": "aria-label",
+          "isGetAttributeValue": true
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "TagName": "mat-toolbar-row"
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "IsNotHaveClass": true
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-line",
+      "mat-icon"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "mat-list-item"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "mat-list-item-content"
+      ],
+      "ChildElement": {
+        "TagName": "div",
+        "ClassNames": [
+          "mat-list-text"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "TagName": "mat-list-item"
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "mat-list-item-content"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-tab-label",
+      "mat-tab-label-content"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "mat-tab-label"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ClassNames": [
+        "mat-tab-label-content"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "mat-calendar-period-button"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "button",
+      "TargetAttributes": [
+        {
+          "ValueAttributeName": "aria-label",
+          "isGetAttributeValue": true
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "mat-calendar-controls"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "button",
+      "Attributes": [
+        {
+          "ValueAttributeName": "aria-label",
+          "isGetAttributeValue": true
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "path",
+    "RootElement": {
+      "ClassNames": [
+        "mat-datepicker-toggle"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "button",
+      "ClassNames": ["mat-icon-button"],
+      "TargetAttributes": [
+        {
+          "ValueAttributeName": "aria-label",
+          "isGetAttributeValue": true
+        }
+      ],
+      "ChildElement": {
+        "TagName": "button",
+        "TargetAttributes": [
+          {
+            "ValueAttributeName": "aria-label",
+            "isGetAttributeValue": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "mat-paginator-navigation-next"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "button",
+      "TargetAttributes": [
+        {
+          "ValueAttributeName": "aria-label",
+          "isGetAttributeValue": true
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-calendar-arrow"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "mat-paginator-navigation-previous"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "button",
+      "TargetAttributes": [
+        {
+          "ValueAttributeName": "aria-label",
+          "isGetAttributeValue": true
+        }
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "TagName": "mat-tree-node",
+      "ClassNames": [
+        "mat-tree-node"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "textContent"
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "mat-menu-item"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-button-wrapper"
+    ],
+    "RootElement": {
+      "TagName": "button"
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "ClassNames": [
+        "mat-button-wrapper"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetClassNames": [
+      "mat-slide-toggle-thumb"
+    ],
+    "RootElement": {
+      "ClassNames": [
+        "mat-slide-toggle-label"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "span",
+      "ClassNames": [
+        "mat-slide-toggle-content"
+      ],
+      "ChildElement": {
+        "TagName": "span",
+        "IsNotHaveClass": true
+      }
+    }
+  }
+]

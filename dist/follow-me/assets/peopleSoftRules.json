@@ -1,0 +1,838 @@
+[
+  {
+    "RuleType": 1,
+    "ControlType": 560,
+    "ClassNames": ["PSEDITBOX"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 560,
+    "ClassNames": ["ps-edit"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 560,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pthnavsrchinput"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 560,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "userid"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 560,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pwd"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 450,
+    "ClassNames": ["ps-checkbox"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 450,
+    "ClassNames": ["PSCHECKBOX"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 450,
+    "Attributes": [
+      {
+        "AttributeName": "type",
+        "AttributeValue": "checkbox"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 450,
+    "Attributes": [
+      {
+        "AttributeName": "for",
+        "AttributeValue": "accessible"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSMODALCLOSEANCHOR"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["headerbutton"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthnavscrolldownshow"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthnavscrollupshow"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["ps-button"]
+  },
+  {	"RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBOK"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBADD"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBCLEAR"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBCLEAR"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBSAVE"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTON"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBSENDNOTIFY"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["PSPUSHBUTTONTBSEARCH"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["ps-button-wrapper"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["psc_on_container"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["psc_off_container"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["ps_grid-row"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["psc_rowact nuinb"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["ps_groupleth"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["ps_process"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2navbar_icon"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2navbar"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2navbar_div"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["actionlisticon"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2ActionList"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["actionListIcon"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2ActionList_div"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2notify_icon"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2notify"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["pthdr2notify_div"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ClassNames": ["fluidsearchicon"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["pthnavbcanchor"]
+  },
+  {	"RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["PTEXPAND_ARROW"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["PSDROPDOWNLIST"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["ps-dropdown"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["PTEXPAND"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["PTCOLLAPSE_ARROW"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["PTCOLLAPSE"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 580,
+    "ClassNames": ["ps-link"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ClassNames": ["pthnavfakeli"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ClassNames": ["pthnavfldrimg"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ClassNames": ["pthnavfldr"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ClassNames": ["pthnavrightarrow"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ClassNames": ["pthnavcrefimg"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ClassNames": ["pthnavcref"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ParentClassNames": ["pthnavcref"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 610,
+    "ParentClassNames": ["pthnavfldr"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$0"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$1"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$2"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$3"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$4"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$5"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$6"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_DOCK_REC_GROUPLET_LBL$7"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "PTNUI_NB_HDRWRK_PTNUI_NB_ACTION$IMG"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pthnavgoImg"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pthdr2home"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pthdr2home_icon"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "searchIconHolder"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "Attributes": [
+      {
+        "AttributeName": "title",
+        "AttributeValue": "Global Search"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 340,
+    "ParentClassNames": ["ps-button"],
+    "Attributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "button"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 10101044,
+    "ClassNames": ["datepicker"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 10101044,
+    "ClassNames": ["ps_icon-date"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 10101044,
+    "ClassNames": ["PT_CLASSICPLUS_CALENDAR"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 10101044,
+    "ClassNames": ["PT_CLASSICPLUS_CALENDAR"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 140,
+    "Attributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "tab"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 140,
+    "ParentClassNames": ["PSHYPERLINK"],
+    "ParentAttributes": [
+      {
+        "AttributeName": "role",
+        "AttributeValue": "tab"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "ClassNames": ["PSHYPERLINK"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pttabhelplink"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "Attributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pttabhelplink_icon"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "ParentClassNames": ["ps-link"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "ParentClassNames": ["ps_box-link"]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "ParentClassNames": ["PSHYPERLINK"],
+    "ParentAttributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pttabperlayout"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 660,
+    "ParentClassNames": ["PSHYPERLINK"],
+    "ParentAttributes": [
+      {
+        "AttributeName": "id",
+        "AttributeValue": "pttabpercontent"
+      }
+    ]
+  },
+  {
+    "RuleType": 1,
+    "ControlType": 140,
+    "TagName": "span"
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "img",
+    "RootElement": {
+      "ClassNames": [
+        "psc_layout"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "h2",
+      "ChildElement": {
+        "TagName": "span",
+        "ClassNames": [
+          "ps-label"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "PAGROUPBOXLABEL"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "select",
+    "RootElement": {
+      "TagName": "tr"
+    },
+    "ChildElement": {
+      "TagName": "label",
+      "ClassNames": [
+        "PSDROPDOWNLABEL"
+      ]
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "Attributes": [
+        {
+          "AttributeName": "valign",
+          "AttributeValue": "top"
+        }
+      ]
+    },
+    "ChildElement": {
+      "TagName": "td",
+      "ChildElement": {
+        "TagName": "label",
+        "ClassNames": [
+          "PSSRCHEDITBOXLABEL"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "ClassNames": [
+        "PSSRCHCHECKBOX"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "headerbutton"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "title"
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "TagName": "div"
+    },
+    "ChildElement": {
+      "TagName": "label",
+      "ChildElement": {
+        "GetValueTargetElement": "innerText"
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "RootElement": {
+      "Attributes": [
+        {
+          "AttributeName": "id",
+          "AttributeValue": "pthnavsrch"
+        }
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ChildElement": {
+        "TagName": "label",
+        "ChildElement": {
+          "GetValueTargetElement": "innerText"
+        }
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "input",
+    "RootElement": {
+      "TagName": "div"
+    },
+    "ChildElement": {
+      "TagName": "label",
+      "ChildElement": {
+        "GetValueTargetElement": "innerText"
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "PSHYPERLINK"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "TagName": "div"
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "pthnavbcanchor"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "pthnavfldr"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "a",
+      "IsNotHaveClass": true
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "pthnavcref"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "a",
+      "IsNotHaveClass": true
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "pthnavbarcref"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "a",
+      "IsNotHaveClass": true
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "ps-link"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "ps-link"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "span",
+    "RootElement": {
+      "ClassNames": [
+        "ps-text"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "a",
+    "RootElement": {
+      "ClassNames": [
+        "ps-button"
+      ]
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "input",
+    "RootElement": {
+      "ClassNames": [
+        "ps_box-edit"
+      ]
+    },
+    "ChildElement": {
+      "TagName": "div",
+      "ChildElement": {
+        "TagName": "label",
+        "ClassNames": [
+          "ps-label"
+        ]
+      }
+    }
+  },
+  {
+    "RuleType": 2,
+    "TargetTagName": "span",
+    "RootElement": {
+      "TagName": "span"
+    },
+    "ChildElement": {
+      "GetValueTargetElement": "innerText"
+    }
+  }
+]
